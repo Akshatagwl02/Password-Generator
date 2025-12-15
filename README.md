@@ -16,7 +16,7 @@ A simple yet robust password generator built with React and styled using Tailwin
 
 ## Hooks Used
 
-- **useState**: Manages the dynamic state of the password, length, and character options.
-- **useEffect**: Handles side effects such as re-generating the password when options change.
-- **useCallback**: Optimizes performance by memoizing functions, preventing unnecessary re-renders.
+- `useState`: Manages the dynamic state of the password, length, and character options.
+- `useEffect`: Handles side effects such as re-generating the password when options change.
+- `useCallback`: Optimizes performance by memoizing functions, preventing unnecessary re-renders.
 - `useRef`: Directly accesses the DOM for features like copying the password and highlighting the selected text.
